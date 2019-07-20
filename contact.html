@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Sprint Challenge - Contact</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hankchizljaw/boilerform@master/dist/css/boilerform.min.css" media="all" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/boilerform.css">
+  <!-- <link rel="stylesheet" href="css/diagnostics.css"> -->
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="w-full">
+      <iframe src="header.html" class="w-full header-override"></iframe>
+    </div>
+
+    <img class="w-full" style="height: 153px;" src="img/contact-banner.png" alt="Contact header image">
+
+    <section class="top-content flex f_direction_row f_wrap_nowrap f_justify-content_space-between">
+      <div class="text-container-wide">
+        <h2 id="contact">Contact Us</h2>
+        <p>
+          Send us a message using the form below and someone from our team will be in touch ASAP!
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="middle-content flex f_direction_row f_wrap_nowrap f_align-items_flex-start f_justify-content_space-between f_align-content_space-between">
+      <div class="card2">
+        <h3 id="form">Contact Form</h3>
+        <div class="boilerform">
+          <form class="boilerform" action="" method="post">
+            <fieldset class="c-form">
+              <div class="c-form__row">
+                <label for="name" class="c-label">Name</label>
+                <input type="text" name="name" id="name" class="w-full c-input-field" value="" autocorrect="off" required />
+              </div>
+              <div class="c-form__row">
+                <label for="email" class="c-label">Email</label>
+                <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" class="w-full c-input-field" required />
+              </div>
+              <div class="c-form__row">
+                <label for="message" class="c-label">Your message</label>
+                <textarea name="message" id="message" class="c-input-field c-input-field--multiline" rows="10"></textarea>
+              </div>
+              <div class="c-form__row">
+                <button class="c-button" type="submit">Submit</button>    
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img class="w-full t-margin-3_5 border-radius-10" src="img/services-info.png" alt="one of our employees hard at work">
+      </div>
+    </section>
+
+    <section class="">
+      <div class="text-container-wide">
+        <h2>Thank you!</h2>
+        <p>We appreciate you taking the time to contact us. You can expect a prompt and courteous reply.</p>
+      </div>
+    </section>
+
+    <div class="w-full">
+      <iframe src="footer.html" class="w-full"></iframe>
+    </div>
+  </div>
+</body>
+
+</html>
