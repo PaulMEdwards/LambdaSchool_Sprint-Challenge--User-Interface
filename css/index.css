@@ -79,15 +79,21 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.top-content .text-container-wide {
+.text-container-wide {
     width: 97%;
     padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.text-container-wide2 {
+    width: 97%;
+    /* padding: 0 1%; */
     padding-bottom: 20px;  
 }
 
@@ -120,7 +126,8 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    /* margin: 0 2% 20px; */
+    margin: 0 1% 0px;
     justify-content: space-around;
 }
 
@@ -206,6 +213,9 @@ section {
 .f_justify-content_space-around {
 	justify-content: space-around;
 }
+.f_justify-content_space-evenly {
+	justify-content: space-evenly;
+}
 .f_align-content_flex-start {
 	align-content: flex-start;
 }
@@ -229,7 +239,7 @@ section {
 	height: 94px;
 }
 nav {
-	height: 56px;
+	height: 57px;
 	/* line-height: 76px; */
 }
 nav a {
@@ -269,11 +279,12 @@ button {
 }
 .learn {
   display: inline-block;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 10px 40px;
-  background: white;
-  font-size: 0.85em;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 22px;
+  margin-top: 17px;
+  /* background: white; */
+  /* font-size: 0.85em; */
 }
 .border-radius-10 {
   border-radius: 10px;
@@ -283,12 +294,26 @@ button {
 	margin-bottom: 2.5em;
 }
 .card {
-	width: 48%;
+  width: 46%;
+  margin: 0 2%;
+  margin-top: 0.7em;
+  margin-bottom: 3em;
+  padding: 0;
+  padding-bottom: 22px;
 }
 .card-bg {
-	padding: 1.25em;
-	border: 1px solid black;
-	background-color: #f4f3f4;
+	/* padding: 1.25em; */
+	/* border: 1px solid black; */
+	/* background-color: #f4f3f4; */
+}
+.card h2 {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.bottom-dash {
+  border-bottom: 1px dashed black;
 }
 
 .bg-teal { background-color: teal }
@@ -331,6 +356,9 @@ ul {
 }
 .r-margin-0_75 {
 	margin-right: 0.75em;
+}
+.b-margin-1_1 {
+	margin-bottom: 1.1em;
 }
 .b-margin-5 {
 	margin-bottom: 5em;
