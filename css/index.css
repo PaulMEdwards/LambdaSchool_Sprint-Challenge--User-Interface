@@ -110,7 +110,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -291,6 +291,16 @@ button {
 	background-color: #f4f3f4;
 }
 
+.bg-teal { background-color: teal }
+.bg-gold { background-color: gold }
+.bg-cadetblue { background-color: cadetblue }
+.bg-coral { background-color: coral }
+.bg-crimson { background-color: crimson }
+.bg-forestgreen { background-color: forestgreen }
+.bg-darkorchd { background-color: darkorchid }
+.bg-hotpink { background-color: hotpink }
+.bg-indigo { background-color: indigo }
+.bg-dodgerblue { background-color: dodgerblue }
 
 p {
 	/* transform: scale(1, 1.1); */
