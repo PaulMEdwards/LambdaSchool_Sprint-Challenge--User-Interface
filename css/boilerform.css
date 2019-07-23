@@ -18,7 +18,9 @@
   background: #ffffff;
   border: 1px solid #cccccc;
   padding: 11px 15px 10px 15px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 1rem; }
 
 .boilerform .c-check-field__input {
@@ -72,7 +74,9 @@
   padding: 11px 25px 10px 25px;
   font-family: sans-serif;
   font-size: 1rem;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   cursor: pointer;
   text-align: center;
   -webkit-appearance: none;
