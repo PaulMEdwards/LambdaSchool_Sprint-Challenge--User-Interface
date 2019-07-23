@@ -138,23 +138,37 @@ p {
     padding-right: 0;
 }
 
+.header-override {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 94px;
+}
+
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
-    width: 60%;
+    /* width: 60%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    /* padding: 20px 2%; */
     font-size: 14px;
+    height: 5.25em;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
+    /* font-size: 1.25em; */
+}
+
+nav {
+  padding: 20px 2%;
+}
+nav a {
+    font-size: 1.75em;
 }
 
 
@@ -171,6 +185,9 @@ section {
 }
 .w-60pct {
   width: 60%
+}
+.w-65pct {
+  width: 65%
 }
 
 .flex {
@@ -222,16 +239,6 @@ section {
 	align-content: space-around;
 }
 
-.header-override {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	height: 94px;
-}
-nav {
-	height: 57px;
-}
-
 a {
 	color: black;
 	text-decoration: none;
@@ -254,12 +261,23 @@ button {
 .learn {
   display: inline-block;
   border: 2px solid black;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   padding: 10px 22px;
   margin-top: 17px;
 }
+.learn:hover {
+  background-color: black;
+  color: white;
+  transition: all .5s ease-in-out;
+}
 .border-radius-10 {
   border-radius: 10px;
+}
+.border-top-radius-10 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .row {
@@ -301,6 +319,19 @@ button {
 .bg-hotpink { background-color: hotpink }
 .bg-indigo { background-color: indigo }
 .bg-dodgerblue { background-color: dodgerblue }
+
+a:hover {
+  transform: scale(1.25);
+  transition: all .33s ease-in-out;
+}
+.box:hover {
+  transform: scale(1.25);
+  transition: all .33s ease-in-out;
+}
+
+img:hover { transform: scale(1.15); }
+/* nav img:hover { transform: scale(1); } */
+img { transition: all .33s ease; }
 
 
 /* Tweaks */
