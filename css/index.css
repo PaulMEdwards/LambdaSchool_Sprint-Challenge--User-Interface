@@ -325,11 +325,17 @@ button {
 .b-margin-1_1 {
 	margin-bottom: 1.1em;
 }
+.b-margin-2_5 {
+	margin-bottom: 2.5em;
+}
 .b-margin-5 {
 	margin-bottom: 5em;
 }
 .b-margin--0_5 {
 	margin-bottom: -0.5em;
+}
+.t-margin-1 {
+	margin-top: 1em;
 }
 .t-margin-2_5 {
 	margin-top: 2.5em;
