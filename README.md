@@ -111,4 +111,4 @@ After finishing your required elements, you can push your work further. These go
 
 # Live Site:
 ### _(viewable after merge to master)_
-https://paulmedwards.github.io/LambdaSchool_Sprint-Challenge--User-Interface/
+https://paulmedwards.github.io/LambdaSchool_Week02_Sprint-Challenge--User-Interface/
